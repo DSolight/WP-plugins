@@ -5,6 +5,8 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: #489dff solid;
+    height: 100%;
 }
 
 header {
@@ -131,13 +133,16 @@ h2 {
         display: flex;
         justify-content: center;
     }
-
+    
 }
 
 @media (min-width: 1140px) {
     .plugins__items {
         grid-template-columns: repeat(4, 1fr);
         justify-items: center;
+    }
+    body {
+        height: 100vh;
     }
 }
 
